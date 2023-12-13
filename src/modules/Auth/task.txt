@@ -1,0 +1,18 @@
+Faced error when try to forgot password - https://drive.google.com/file/d/1eQeexe9TlCVwdxdFNRTIVASDqp5ah9Np/view?usp=drive_link
+
+
+please explain the validations.
+To create this restaurant food item detail page where we can locate a single full page screen for food item and add to bag,
+There aren't many details on this figma image, however there are three options to choose the Pizza advance choice.
+Drop-Down radio controls - https://prnt.sc/JOlUApuvLhsl
+
+
+Profile screen fields are different with figma design and web and mobile application, should be update as web?
+
+Backend
+Choose location
+1 - Delivery option does not hide when it's disabled from backend - https://prnt.sc/-t6DV4ro44Jo, https://prnt.sc/MJuvr1MQBxvj
+2 - Pickup option does not hide when it's disabled from backend - https://prnt.sc/Tl-5sNM18rbS, https://prnt.sc/DaSNHcSK6tUc
+
+Tester
+40 - Partner all restaurants should show

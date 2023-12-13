@@ -1,0 +1,2840 @@
+{
+  "data": {
+    "items": [
+      {
+        "_id": "63dbbd9bdb32a750c9425d2e",
+        "name": "Alternate Remote",
+        "availability": [
+          {
+            "day": "Monday",
+            "startDate": "",
+            "endDate": "",
+            "_id": "6475fe210cab72c6ef607e38"
+          },
+          {
+            "day": "Tuesday",
+            "startDate": "",
+            "endDate": "",
+            "_id": "6475fe210cab72c6ef607e39"
+          },
+          {
+            "day": "Wednesday",
+            "startDate": "",
+            "endDate": "",
+            "_id": "6475fe210cab72c6ef607e3a"
+          },
+          {
+            "day": "Thursday",
+            "startDate": "",
+            "endDate": "",
+            "_id": "6475fe210cab72c6ef607e3b"
+          },
+          {
+            "day": "Friday",
+            "startDate": "",
+            "endDate": "",
+            "_id": "6475fe210cab72c6ef607e3c"
+          },
+          {
+            "day": "Saturday",
+            "startDate": "",
+            "endDate": "",
+            "_id": "6475fe210cab72c6ef607e3d"
+          },
+          {
+            "day": "Sunday",
+            "startDate": "",
+            "endDate": "",
+            "_id": "6475fe210cab72c6ef607e3e"
+          }
+        ],
+        "categories": [
+          {
+            "_id": "63dbbd93db32a750c9425b8b",
+            "name": "SIDES",
+            "restaurantId": "63bc1483f75dfb94afecb520",
+            
+            "categoryName": "SIDES",
+            "isAlcohol": false,
+            "isAvailableDaily": true,
+            "isCatering": false,
+            "location": ["63bc1483f75dfb94afecb526"],
+            "methodChosen": "all",
+            "restaurant": "63bc1483f75dfb94afecb520",
+            "sortOrder": 0,
+            "source": "microsale",
+            "status": "enabled",
+            "subCategories": [],
+            "taxRate": null,
+            "type": "category"
+          }
+        ],
+        "description": "",
+        "imageUrl": "https://biteheist-uploads-dev.s3.us-east-2.amazonaws.com/restaurant/1685451896421",
+        "isAlchohol": false,
+        "isAvailableDaily": true,
+        "isCombo": false,
+        "isPizza": false,
+        "isSuggested": false,
+        "method": "all",
+        "modifiers": {
+          "63da6e176b2546310471fa00": {
+            "subProducts": [
+              {
+                "product_id": "645bdc56e9053fe787853f76",
+                "product_name": "Ham",
+                "price": 10,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [
+                  {
+                    "restaurant": "63bc1483f75dfb94afecb520",
+                    "name": "Whole",
+                    "sortOrder": "0",
+                    "price": 10,
+                    "type": "child",
+                    "source": "local"
+                  },
+                  {
+                    "restaurant": "63bc1483f75dfb94afecb520",
+                    "name": "Half",
+                    "sortOrder": "0",
+                    "price": 5,
+                    "type": "child",
+                    "source": "local"
+                  }
+                ],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              }
+            ],
+            "name": "Cheese",
+            "isRequired": true,
+            "enableQtyUpdate": false,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "min": 1,
+            "max": 100,
+            "parentModifier": "",
+            "enableParentModifier": false
+          },
+          "63dbbd9adb32a750c9425ceb": {
+            "subProducts": [
+              {
+                "price": 2.5,
+                "product_id": "63dbbd93db32a750c9425b6f",
+                "product_name": "MED RARE",
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b70",
+                "product_name": "MED WELL",
+                "price": 5,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b71",
+                "product_name": "MEDIUM",
+                "price": 10,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              }
+            ],
+            "name": "Meat Temp",
+            "isRequired": false,
+            "enableQtyUpdate": false,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "min": 1,
+            "max": 10,
+            "parentModifier": "",
+            "enableParentModifier": false
+          },
+          "63dbbd9adb32a750c9425cec": {
+            "subProducts": [
+              {
+                "product_id": "63dbbd93db32a750c9425b75",
+                "product_name": "!OnSide",
+                "price": 10,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b76",
+                "product_name": "$ExtraFeta",
+                "price": 15,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b77",
+                "product_name": "Arugula",
+                "price": 5,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              }
+            ],
+            "name": "Watermelon Salad",
+            "isRequired": true,
+            "enableQtyUpdate": false,
+            "type": "select",
+            "sortOrder": 0,
+            "min": 0,
+            "max": 10,
+            "parentModifier": "",
+            "enableParentModifier": false
+          },
+          "63dbbd9adb32a750c9425ced": {
+            "subProducts": [
+              {
+                "product_id": "63dbbd93db32a750c9425b7c",
+                "product_name": "Chicken",
+                "price": 5,
+                "sort": 0,
+                "halfPrice": 2.5,
+                "extraPrice": 10,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b7d",
+                "product_name": "Salmon",
+                "price": 10,
+                "sort": 0,
+                "halfPrice": 5,
+                "extraPrice": 20,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b7e",
+                "product_name": "Scallops",
+                "price": 15,
+                "sort": 0,
+                "halfPrice": 7.5,
+                "extraPrice": 30,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              }
+            ],
+            "name": "Salad ADD ONS",
+            "isRequired": false,
+            "enableQtyUpdate": false,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "min": 1,
+            "max": 2,
+            "advancedPizzaOptions": true,
+            "parentModifier": "",
+            "enableParentModifier": false
+          },
+          "63dbbd9adb32a750c9425cf1": {
+            "subProducts": [
+              {
+                "product_id": "63dbbd97db32a750c9425c28",
+                "product_name": "Medley",
+                "price": 0,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd97db32a750c9425c27",
+                "product_name": "Yellow Rice",
+                "price": 0,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd97db32a750c9425c29",
+                "product_name": "Asian Noodles",
+                "price": 0,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              }
+            ],
+            "name": "Sides",
+            "isRequired": false,
+            "enableQtyUpdate": false,
+            "type": "radio",
+            "sortOrder": 0,
+            "min": 0,
+            "max": 10,
+            "parentModifier": "",
+            "enableParentModifier": false
+          },
+          "63dbbd9adb32a750c9425cf2": {
+            "subProducts": [
+              {
+                "product_id": "63dbbd97db32a750c9425c3a",
+                "product_name": "Bloody Mary $",
+                "price": 10,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              },
+              {
+                "product_id": "63dbbd97db32a750c9425c3b",
+                "product_name": "Large Rock",
+                "price": 15,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "",
+                  "value": ""
+                }
+              }
+            ],
+            "name": "Mixers",
+            "isRequired": false,
+            "enableQtyUpdate": true,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "min": 1,
+            "max": 5,
+            "advancedPizzaOptions": false,
+            "parentModifier": "",
+            "enableParentModifier": false
+          },
+          "63dbbd9adb32a750c9425d09": {
+            "subProducts": [
+              {
+                "product_id": "63dbbd9adb32a750c9425cb8",
+                "product_name": "Kit Salad For 2",
+                "price": 5,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "!OnSide",
+                  "value": "63dbbd93db32a750c9425b75",
+                  "parentModifier": "Watermelon Salad"
+                }
+              },
+              {
+                "product_id": "63dbbd9adb32a750c9425cb9",
+                "product_name": "Kit Salad For 4",
+                "price": 10,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "$ExtraFeta",
+                  "value": "63dbbd93db32a750c9425b76",
+                  "parentModifier": "Watermelon Salad"
+                }
+              },
+              {
+                "product_id": "63dbbd9adb32a750c9425cb8",
+                "product_name": "Kit Salad For 2",
+                "price": 15,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "$ExtraFeta",
+                  "value": "63dbbd93db32a750c9425b76",
+                  "parentModifier": "Watermelon Salad"
+                }
+              },
+              {
+                "product_id": "63dbbd9adb32a750c9425cb9",
+                "product_name": "Kit Salad For 4",
+                "price": 10,
+                "sort": 0,
+                "halfPrice": 0,
+                "extraPrice": 0,
+                "subModifiers": [],
+                "defaultSelected": false,
+                "selectedParentValue": {
+                  "label": "!OnSide",
+                  "value": "63dbbd93db32a750c9425b75",
+                  "parentModifier": "Watermelon Salad"
+                }
+              }
+            ],
+            "name": "Meal Kit Salad",
+            "isRequired": false,
+            "enableQtyUpdate": false,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "min": 1,
+            "max": 2,
+            "parentModifier": "Watermelon Salad",
+            "enableParentModifier": true,
+            "parentModifierId": "63dbbd9adb32a750c9425cec"
+          }
+        },
+        "plu": "",
+        "price": 45.99,
+        "subProducts": [],
+        "glutenFree": false,
+        "loyaltyPoint": 46,
+        "vegetarian": false
+      },
+      {
+        "_id": "63dbbd9bdb32a750c9425dbe",
+        "name": "SD Blue Cheese Fondu",
+        "availability": [
+          {
+            "day": "Monday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Tuesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Wednesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Thursday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Friday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Saturday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Sunday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          }
+        ],
+        "categories": [
+          {
+            "_id": "63dbbd93db32a750c9425b8b",
+            "name": "SIDES",
+            "restaurantId": "63bc1483f75dfb94afecb520",
+            
+            "categoryName": "SIDES",
+            "isAlcohol": false,
+            "isAvailableDaily": true,
+            "isCatering": false,
+            "location": ["63bc1483f75dfb94afecb526"],
+            "methodChosen": "all",
+            "restaurant": "63bc1483f75dfb94afecb520",
+            "sortOrder": 0,
+            "source": "microsale",
+            "status": "enabled",
+            "subCategories": [],
+            "taxRate": null,
+            "type": "category"
+          }
+        ],
+        "description": "",
+        "imageUrl": "",
+        "isAlchohol": false,
+        "isAvailableDaily": true,
+        "isCombo": false,
+        "isPizza": false,
+        "isSuggested": false,
+        "method": "all",
+        "modifiers": {},
+        "plu": "",
+        "price": 3,
+        "subProducts": []
+      },
+      {
+        "_id": "63dbbd9bdb32a750c9425dbf",
+        "name": "SD Short Rib Gravy",
+        "availability": [
+          {
+            "day": "Monday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Tuesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Wednesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Thursday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Friday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Saturday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Sunday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          }
+        ],
+        "categories": [
+          {
+            "_id": "63dbbd93db32a750c9425b8b",
+            "name": "SIDES",
+            "restaurantId": "63bc1483f75dfb94afecb520",
+            
+            "categoryName": "SIDES",
+            "isAlcohol": false,
+            "isAvailableDaily": true,
+            "isCatering": false,
+            "location": ["63bc1483f75dfb94afecb526"],
+            "methodChosen": "all",
+            "restaurant": "63bc1483f75dfb94afecb520",
+            "sortOrder": 0,
+            "source": "microsale",
+            "status": "enabled",
+            "subCategories": [],
+            "taxRate": null,
+            "type": "category"
+          }
+        ],
+        "description": "",
+        "imageUrl": "",
+        "isAlchohol": false,
+        "isAvailableDaily": true,
+        "isCombo": false,
+        "isPizza": false,
+        "isSuggested": false,
+        "method": "all",
+        "modifiers": {},
+        "plu": "",
+        "price": 3,
+        "subProducts": []
+      },
+      {
+        "_id": "63dbbd9bdb32a750c9425dd2",
+        "name": "Side Asian Noodle",
+        "availability": [
+          {
+            "day": "Monday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Tuesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Wednesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Thursday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Friday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Saturday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Sunday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          }
+        ],
+        "categories": [
+          {
+            "_id": "63dbbd93db32a750c9425b8b",
+            "name": "SIDES",
+            "restaurantId": "63bc1483f75dfb94afecb520",
+            
+            "categoryName": "SIDES",
+            "isAlcohol": false,
+            "isAvailableDaily": true,
+            "isCatering": false,
+            "location": ["63bc1483f75dfb94afecb526"],
+            "methodChosen": "all",
+            "restaurant": "63bc1483f75dfb94afecb520",
+            "sortOrder": 0,
+            "source": "microsale",
+            "status": "enabled",
+            "subCategories": [],
+            "taxRate": null,
+            "type": "category"
+          }
+        ],
+        "description": "",
+        "imageUrl": "",
+        "isAlchohol": false,
+        "isAvailableDaily": true,
+        "isCombo": false,
+        "isPizza": false,
+        "isSuggested": false,
+        "method": "all",
+        "modifiers": {
+          "63dbbd9adb32a750c9425cef": {
+            "name": "General Modifiers",
+            "isRequired": false,
+            "enableQtyUpdate": false,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "subProducts": [
+              {
+                "product_id": "63dbbd93db32a750c9425b79",
+                "product_name": "Feta",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b85",
+                "product_name": "Grouper",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b86",
+                "product_name": "Shrimp",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425ba9",
+                "product_name": "Cucumber",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425baa",
+                "product_name": "Key Lime Vinaigrette",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bae",
+                "product_name": "Ranch",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bb2",
+                "product_name": "Tomato",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bba",
+                "product_name": "!EXTRA",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbb",
+                "product_name": "!ON SIDE",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbc",
+                "product_name": "Asian Noodle",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbd",
+                "product_name": "$Avocado",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbe",
+                "product_name": "Bacon",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbf",
+                "product_name": "$Blue Cheese",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc0",
+                "product_name": "Blackend",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc1",
+                "product_name": "Bread$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc2",
+                "product_name": "Bun",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc3",
+                "product_name": "Butter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc4",
+                "product_name": "Capers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc5",
+                "product_name": "$Bacon",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc6",
+                "product_name": "Celery$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc7",
+                "product_name": "Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc8",
+                "product_name": "Crackers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc9",
+                "product_name": "Cocktail",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bca",
+                "product_name": "Cheese Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcb",
+                "product_name": "Chipotle Lime",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcc",
+                "product_name": "CRISPY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcd",
+                "product_name": "Crostinis",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bce",
+                "product_name": "Croutons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcf",
+                "product_name": "Dijonnaise",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd0",
+                "product_name": "Drawn Butter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd1",
+                "product_name": "Fish",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd2",
+                "product_name": "FF",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd3",
+                "product_name": "French Baguette",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd4",
+                "product_name": "Demi Glaze",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd5",
+                "product_name": "Garlic Butter$",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd6",
+                "product_name": "Gravy",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd7",
+                "product_name": "Goat Cheese",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd8",
+                "product_name": "Grilled",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd9",
+                "product_name": "Ginger",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bda",
+                "product_name": "Ginger Soy Sauce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdb",
+                "product_name": "Hot Honey",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdc",
+                "product_name": "Horsey Mayo",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdd",
+                "product_name": "Hollandaise",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bde",
+                "product_name": "Horseradish",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdf",
+                "product_name": "Jalapeno$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be0",
+                "product_name": "Lettuce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be1",
+                "product_name": "Lite Blackend",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be2",
+                "product_name": "Lemons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be3",
+                "product_name": "Lemon Butter",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be4",
+                "product_name": "Lemon Vin",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be5",
+                "product_name": "Mayo",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be6",
+                "product_name": "Nuts",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be7",
+                "product_name": "Oil",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be8",
+                "product_name": "Old Bay",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be9",
+                "product_name": "Olde Bay Seasoning",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bea",
+                "product_name": "Onion",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425beb",
+                "product_name": "Oysters",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bec",
+                "product_name": "Pickles",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bed",
+                "product_name": "Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bee",
+                "product_name": "Plain",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bef",
+                "product_name": "Potato Bun",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf0",
+                "product_name": "Parmesan Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf1",
+                "product_name": "Remoulade",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf2",
+                "product_name": "Salt",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf3",
+                "product_name": "Saltine Cracker",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf4",
+                "product_name": "Same Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf5",
+                "product_name": "Seperate Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf6",
+                "product_name": "Set Up",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf7",
+                "product_name": "Sauce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf8",
+                "product_name": "Basil Balsm",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf9",
+                "product_name": "Side Short Rib Sauce",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfa",
+                "product_name": "Siracha Aioli",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfb",
+                "product_name": "SOS",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfc",
+                "product_name": "Wontons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfd",
+                "product_name": "Split 2 Plates $",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfe",
+                "product_name": "Shredded Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bff",
+                "product_name": "Shishito Peppers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c00",
+                "product_name": "Shellfish Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c01",
+                "product_name": "Short Rib Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c02",
+                "product_name": "Sub Soup for Side",
+                "price": 2.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c03",
+                "product_name": "Tarter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c04",
+                "product_name": "Truffle Cheese$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c05",
+                "product_name": "Well Done",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c06",
+                "product_name": "White Cheddar",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c07",
+                "product_name": "Worcestershire",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c08",
+                "product_name": "Wasabi",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c09",
+                "product_name": "Wild Mushrooms$",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0a",
+                "product_name": "SHELLFISH ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0b",
+                "product_name": "DAIRY ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0c",
+                "product_name": "PEANUT ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0d",
+                "product_name": "GLUTEN ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0e",
+                "product_name": "VEGAN",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              }
+            ]
+          }
+        },
+        "plu": "",
+        "price": 4,
+        "subProducts": []
+      },
+      {
+        "_id": "63dbbd9bdb32a750c9425dd3",
+        "name": "Side Fried Grits",
+        "availability": [
+          {
+            "day": "Monday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Tuesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Wednesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Thursday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Friday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Saturday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Sunday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          }
+        ],
+        "categories": [
+          {
+            "_id": "63dbbd93db32a750c9425b8b",
+            "name": "SIDES",
+            "restaurantId": "63bc1483f75dfb94afecb520",
+            
+            "categoryName": "SIDES",
+            "isAlcohol": false,
+            "isAvailableDaily": true,
+            "isCatering": false,
+            "location": ["63bc1483f75dfb94afecb526"],
+            "methodChosen": "all",
+            "restaurant": "63bc1483f75dfb94afecb520",
+            "sortOrder": 0,
+            "source": "microsale",
+            "status": "enabled",
+            "subCategories": [],
+            "taxRate": null,
+            "type": "category"
+          }
+        ],
+        "description": "",
+        "imageUrl": "",
+        "isAlchohol": false,
+        "isAvailableDaily": true,
+        "isCombo": false,
+        "isPizza": false,
+        "isSuggested": false,
+        "method": "all",
+        "modifiers": {
+          "63dbbd9adb32a750c9425cef": {
+            "name": "General Modifiers",
+            "isRequired": false,
+            "enableQtyUpdate": false,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "subProducts": [
+              {
+                "product_id": "63dbbd93db32a750c9425b79",
+                "product_name": "Feta",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b85",
+                "product_name": "Grouper",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b86",
+                "product_name": "Shrimp",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425ba9",
+                "product_name": "Cucumber",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425baa",
+                "product_name": "Key Lime Vinaigrette",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bae",
+                "product_name": "Ranch",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bb2",
+                "product_name": "Tomato",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bba",
+                "product_name": "!EXTRA",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbb",
+                "product_name": "!ON SIDE",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbc",
+                "product_name": "Asian Noodle",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbd",
+                "product_name": "$Avocado",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbe",
+                "product_name": "Bacon",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbf",
+                "product_name": "$Blue Cheese",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc0",
+                "product_name": "Blackend",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc1",
+                "product_name": "Bread$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc2",
+                "product_name": "Bun",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc3",
+                "product_name": "Butter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc4",
+                "product_name": "Capers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc5",
+                "product_name": "$Bacon",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc6",
+                "product_name": "Celery$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc7",
+                "product_name": "Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc8",
+                "product_name": "Crackers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc9",
+                "product_name": "Cocktail",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bca",
+                "product_name": "Cheese Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcb",
+                "product_name": "Chipotle Lime",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcc",
+                "product_name": "CRISPY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcd",
+                "product_name": "Crostinis",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bce",
+                "product_name": "Croutons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcf",
+                "product_name": "Dijonnaise",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd0",
+                "product_name": "Drawn Butter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd1",
+                "product_name": "Fish",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd2",
+                "product_name": "FF",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd3",
+                "product_name": "French Baguette",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd4",
+                "product_name": "Demi Glaze",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd5",
+                "product_name": "Garlic Butter$",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd6",
+                "product_name": "Gravy",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd7",
+                "product_name": "Goat Cheese",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd8",
+                "product_name": "Grilled",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd9",
+                "product_name": "Ginger",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bda",
+                "product_name": "Ginger Soy Sauce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdb",
+                "product_name": "Hot Honey",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdc",
+                "product_name": "Horsey Mayo",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdd",
+                "product_name": "Hollandaise",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bde",
+                "product_name": "Horseradish",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdf",
+                "product_name": "Jalapeno$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be0",
+                "product_name": "Lettuce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be1",
+                "product_name": "Lite Blackend",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be2",
+                "product_name": "Lemons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be3",
+                "product_name": "Lemon Butter",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be4",
+                "product_name": "Lemon Vin",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be5",
+                "product_name": "Mayo",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be6",
+                "product_name": "Nuts",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be7",
+                "product_name": "Oil",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be8",
+                "product_name": "Old Bay",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be9",
+                "product_name": "Olde Bay Seasoning",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bea",
+                "product_name": "Onion",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425beb",
+                "product_name": "Oysters",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bec",
+                "product_name": "Pickles",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bed",
+                "product_name": "Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bee",
+                "product_name": "Plain",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bef",
+                "product_name": "Potato Bun",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf0",
+                "product_name": "Parmesan Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf1",
+                "product_name": "Remoulade",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf2",
+                "product_name": "Salt",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf3",
+                "product_name": "Saltine Cracker",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf4",
+                "product_name": "Same Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf5",
+                "product_name": "Seperate Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf6",
+                "product_name": "Set Up",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf7",
+                "product_name": "Sauce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf8",
+                "product_name": "Basil Balsm",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf9",
+                "product_name": "Side Short Rib Sauce",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfa",
+                "product_name": "Siracha Aioli",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfb",
+                "product_name": "SOS",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfc",
+                "product_name": "Wontons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfd",
+                "product_name": "Split 2 Plates $",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfe",
+                "product_name": "Shredded Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bff",
+                "product_name": "Shishito Peppers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c00",
+                "product_name": "Shellfish Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c01",
+                "product_name": "Short Rib Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c02",
+                "product_name": "Sub Soup for Side",
+                "price": 2.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c03",
+                "product_name": "Tarter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c04",
+                "product_name": "Truffle Cheese$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c05",
+                "product_name": "Well Done",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c06",
+                "product_name": "White Cheddar",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c07",
+                "product_name": "Worcestershire",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c08",
+                "product_name": "Wasabi",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c09",
+                "product_name": "Wild Mushrooms$",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0a",
+                "product_name": "SHELLFISH ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0b",
+                "product_name": "DAIRY ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0c",
+                "product_name": "PEANUT ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0d",
+                "product_name": "GLUTEN ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0e",
+                "product_name": "VEGAN",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              }
+            ]
+          }
+        },
+        "plu": "",
+        "price": 5,
+        "subProducts": []
+      },
+      {
+        "_id": "63dbbd9bdb32a750c9425dd4",
+        "name": "Side Fries",
+        "availability": [
+          {
+            "day": "Monday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Tuesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Wednesday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Thursday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Friday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Saturday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          },
+          {
+            "day": "Sunday",
+            "startDate": "09:00",
+            "endDate": "22:00",
+            "enable": false
+          }
+        ],
+        "categories": [
+          {
+            "_id": "63dbbd93db32a750c9425b8b",
+            "name": "SIDES",
+            "restaurantId": "63bc1483f75dfb94afecb520",
+            
+            "categoryName": "SIDES",
+            "isAlcohol": false,
+            "isAvailableDaily": true,
+            "isCatering": false,
+            "location": ["63bc1483f75dfb94afecb526"],
+            "methodChosen": "all",
+            "restaurant": "63bc1483f75dfb94afecb520",
+            "sortOrder": 0,
+            "source": "microsale",
+            "status": "enabled",
+            "subCategories": [],
+            "taxRate": null,
+            "type": "category"
+          }
+        ],
+        "description": "",
+        "imageUrl": "",
+        "isAlchohol": false,
+        "isAvailableDaily": true,
+        "isCombo": false,
+        "isPizza": false,
+        "isSuggested": false,
+        "method": "all",
+        "modifiers": {
+          "63dbbd9adb32a750c9425cef": {
+            "name": "General Modifiers",
+            "isRequired": false,
+            "enableQtyUpdate": false,
+            "type": "checkbox",
+            "sortOrder": 0,
+            "subProducts": [
+              {
+                "product_id": "63dbbd93db32a750c9425b79",
+                "product_name": "Feta",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b85",
+                "product_name": "Grouper",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425b86",
+                "product_name": "Shrimp",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425ba9",
+                "product_name": "Cucumber",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425baa",
+                "product_name": "Key Lime Vinaigrette",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bae",
+                "product_name": "Ranch",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bb2",
+                "product_name": "Tomato",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bba",
+                "product_name": "!EXTRA",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbb",
+                "product_name": "!ON SIDE",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbc",
+                "product_name": "Asian Noodle",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbd",
+                "product_name": "$Avocado",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbe",
+                "product_name": "Bacon",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bbf",
+                "product_name": "$Blue Cheese",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc0",
+                "product_name": "Blackend",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc1",
+                "product_name": "Bread$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc2",
+                "product_name": "Bun",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc3",
+                "product_name": "Butter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc4",
+                "product_name": "Capers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc5",
+                "product_name": "$Bacon",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc6",
+                "product_name": "Celery$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc7",
+                "product_name": "Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc8",
+                "product_name": "Crackers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bc9",
+                "product_name": "Cocktail",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bca",
+                "product_name": "Cheese Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcb",
+                "product_name": "Chipotle Lime",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcc",
+                "product_name": "CRISPY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcd",
+                "product_name": "Crostinis",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bce",
+                "product_name": "Croutons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bcf",
+                "product_name": "Dijonnaise",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd0",
+                "product_name": "Drawn Butter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd1",
+                "product_name": "Fish",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd2",
+                "product_name": "FF",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd3",
+                "product_name": "French Baguette",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd4",
+                "product_name": "Demi Glaze",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd5",
+                "product_name": "Garlic Butter$",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd6",
+                "product_name": "Gravy",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd7",
+                "product_name": "Goat Cheese",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd8",
+                "product_name": "Grilled",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bd9",
+                "product_name": "Ginger",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bda",
+                "product_name": "Ginger Soy Sauce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdb",
+                "product_name": "Hot Honey",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdc",
+                "product_name": "Horsey Mayo",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdd",
+                "product_name": "Hollandaise",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bde",
+                "product_name": "Horseradish",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bdf",
+                "product_name": "Jalapeno$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be0",
+                "product_name": "Lettuce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be1",
+                "product_name": "Lite Blackend",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be2",
+                "product_name": "Lemons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be3",
+                "product_name": "Lemon Butter",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be4",
+                "product_name": "Lemon Vin",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be5",
+                "product_name": "Mayo",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be6",
+                "product_name": "Nuts",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be7",
+                "product_name": "Oil",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be8",
+                "product_name": "Old Bay",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425be9",
+                "product_name": "Olde Bay Seasoning",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bea",
+                "product_name": "Onion",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425beb",
+                "product_name": "Oysters",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bec",
+                "product_name": "Pickles",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bed",
+                "product_name": "Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bee",
+                "product_name": "Plain",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bef",
+                "product_name": "Potato Bun",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf0",
+                "product_name": "Parmesan Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf1",
+                "product_name": "Remoulade",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf2",
+                "product_name": "Salt",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf3",
+                "product_name": "Saltine Cracker",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf4",
+                "product_name": "Same Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf5",
+                "product_name": "Seperate Plate",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf6",
+                "product_name": "Set Up",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf7",
+                "product_name": "Sauce",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf8",
+                "product_name": "Basil Balsm",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bf9",
+                "product_name": "Side Short Rib Sauce",
+                "price": 1.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfa",
+                "product_name": "Siracha Aioli",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfb",
+                "product_name": "SOS",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfc",
+                "product_name": "Wontons",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfd",
+                "product_name": "Split 2 Plates $",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bfe",
+                "product_name": "Shredded Cheese",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425bff",
+                "product_name": "Shishito Peppers",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c00",
+                "product_name": "Shellfish Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c01",
+                "product_name": "Short Rib Fries$",
+                "price": 3,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c02",
+                "product_name": "Sub Soup for Side",
+                "price": 2.5,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c03",
+                "product_name": "Tarter",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c04",
+                "product_name": "Truffle Cheese$",
+                "price": 1,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c05",
+                "product_name": "Well Done",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c06",
+                "product_name": "White Cheddar",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c07",
+                "product_name": "Worcestershire",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c08",
+                "product_name": "Wasabi",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c09",
+                "product_name": "Wild Mushrooms$",
+                "price": 2,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0a",
+                "product_name": "SHELLFISH ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0b",
+                "product_name": "DAIRY ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0c",
+                "product_name": "PEANUT ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0d",
+                "product_name": "GLUTEN ALLERGY",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              },
+              {
+                "product_id": "63dbbd93db32a750c9425c0e",
+                "product_name": "VEGAN",
+                "price": 0,
+                "sort": 1,
+                "subModifiers": []
+              }
+            ]
+          }
+        },
+        "plu": "",
+        "price": 4,
+        "subProducts": []
+      }
+    ]
+  },
+  "code": "SUCCESS"
+}

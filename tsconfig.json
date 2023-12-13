@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "paths": {
+      "@components": ["./src/components"]
+    }
+  },
+  "exclude": ["node_modules", "build", "babel.config.js", "metro.config.js", "jest.config.js", "detox/**/*"]
+}

@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/BG-Flame-Bold.ttf",
+      "sha1": "4712f0f7994e377ff6a8548f2f42f12e1b74976a"
+    },
+    {
+      "path": "assets/fonts/BG-Flame-Light.ttf",
+      "sha1": "0d5c42be95848451765b4f2ecce763f8dc5a60c1"
+    },
+    {
+      "path": "assets/fonts/BG-Flame.ttf",
+      "sha1": "f25c1dd2fbb511fb1c72fa16aceca1cd77e8723d"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+    Bob",
+    bob@yahoo.com",
+    4990940772",
+    3K58Z2x7"
+}
+
+{
+    Miss Jennie Nichols,
+    "jennie.nichols@example.com",
+    "yellowpeacock117",  
+    "(272) 790-0888",
+}
+
+{
+    BobNew",
+    bobnew@example.com",
+    5085743685",
+    123456"
+}
+
+{
+    Bob",
+    bob@example.com",
+    5085743685",
+    PZ5oMTvL"
+}
+
+{
+    Stacey Hale
+    stacey.hale@example.com
+    6606291107
+    yahoo1
+}
+
+{
+    Minnie Sullivan
+    minnie.sullivan@example.com
+    8446578920
+    channel
+}
+
+restaurantowner@mailinator.com
+123456
+
+sagar_qa@biteheist.com
+&qdTtZqmXQTEY$A!
+
+Jupiter Api Url 
+https://sandbox-platform.jupiterhq.com/v1/
+
+Password
+4hDs4543kJ
+
+Sandbox Vault ID
+tntne5koztu
+
+API User
+biteheistDevUser
+
+Jupiter Basic
+Yml0ZWhlaXN0RGV2VXNlcjo0aERzNDU0M2tK
+
+
+const VGSCollectFormHTMl1 = `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Jupiter Tokenization Credit Card Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script type="text/javascript" src="https://js.verygoodvault.com/vgs-collect/2.6.0/vgs-collect.js"></script>
+    <style>
+      body {
+        padding: 0px 1px 0px 1px;
+      }
+      span[id*='cc-'] {
+        display: block;
+        height: 40px;
+        margin-bottom: 15px;
+      }
+      span[id*='cc-'] iframe {
+        height: 100;
+        width: 100%;
+      }
+      pre {
+        font-size: 12px;
+      }
+      .form-field {
+        display: block;
+        width: 100%;
+        height: calc(2.25rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+      .form-field iframe {
+        border: 0 none transparent;
+        height: 100%;
+        vertical-align: middle;
+        width: 100%;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      #errors li {
+        font-size: 11px;
+        color: #ff1721;
+      }
+      #errors i.error-msg {
+        font-weight: 400;
+        letter-spacing: 0;
+        font-style: normal;
+      }
+
+      .custom-control-input:checked~.custom-control-label::before {
+        border-color: #dc4135 !important;
+        background-color: #dc4135 !important;
+      }
+      .custom-control-input:focus~.custom-control-label::before {
+        box-shadow: 0 0 0 0.2rem #dc413540 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="row">
+        <div class="col-12">
+          <form id="cc-form">
+            <div class="form-group">
+              <label for="cc-name">Name</label>
+              <span id="cc-name" class="form-field"></span>
+            </div>
+            <div class="form-group">
+              <label for="cc-number">Card number</label>
+              <span id="cc-number" class="form-field"></span>
+            </div>
+            <div class="form-group">
+              <label for="cc-cvc">CVC</label>
+              <span id="cc-cvc" class="form-field"></span>
+            </div>
+            <div class="form-group">
+              <label for="cc-expiration-date">Expiration date</label>
+              <span id="cc-expiration-date" class="form-field"></span>
+            </div>
+            <div class="custom-control custom-checkbox my-2">
+              <input type="checkbox" class="custom-control-input" id="saveThisCardForFutureCheckout">
+              <label class="custom-control-label" for="saveThisCardForFutureCheckout">Save this card for future checkout</label>
+            </div>
+            <button id="submitButton" type="submit" class="btn btn-md float-right btn-block" style="background-color: #dc4135; color: #fff">Place Order</button>
+          </form>
+          <ul id="errors" style="display: none; margin-bottom: 0; margin-top: 10px">
+            <li><i id="nameOnCardError" class="error-msg"></i></li>
+            <li><i id="cardNumberError" class="error-msg"></i></li>
+            <li><i id="cvcError" class="error-msg"></i></li>
+            <li><i id="expirationDateError" class="error-msg"></i></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script>
+    
+
+
+      let subMerchantId = ''; // Replace with the merchant associated with Branch or Location
+      let env = '';
+      let vaultId = '';
+      let environment = '';
+
+      let isLive = false;
+
+      if (isLive) {
+        env = 'platform';
+        vaultId = 'tntaxfujub5';
+        environment = 'live';
+      } else {
+        env = 'sandbox-platform';
+        vaultId = 'tntne5koztu';
+        environment = 'sandbox';
+      }
+
+      window.addEventListener("load", (event) => {
+        window.ReactNativeWebView.postMessage(JSON.stringify({
+          _webViewHeight: document.body.scrollHeight,
+        }))
+      });
+
+      const form = VGSCollect.create(vaultId, environment, (state) => (formState = state));
+
+      let formState = {};
+
+      form.field('#cc-name', {
+        type: 'text',
+        name: 'CardHolderName',
+        placeholder: 'Joe Business',
+        validations: ['required'],
+      });
+
+      form.field('#cc-number', {
+        type: 'card-number',
+        name: 'CreditCardNumber',
+        successColor: '#4F8A10',
+        errorColor: '#D8000C',
+        placeholder: '4111 1111 1111 1111',
+        validations: ['required', 'validCardNumber'],
+      });
+
+      form.field('#cc-cvc', {
+        type: 'card-security-code',
+        name: 'Cvv',
+        placeholder: '344',
+        validations: ['required', 'validCardSecurityCode'],
+      });
+
+      form.field('#cc-expiration-date', {
+        type: 'card-expiration-date',
+        yearLength: 2,
+        name: 'ExpirationDate',
+        placeholder: '01 / 25',
+        serializers: [
+          {
+            name: 'separate',
+            options: {
+              monthName: 'ExpirationMonth',
+              yearName: 'ExpirationYear',
+            },
+          },
+        ],
+        validations: ['required', 'validCardExpirationDate'],
+      });
+
+      document.getElementById('cc-form').addEventListener(
+        'submit',
+        async function (e) {
+          e.preventDefault();
+          const {CreditCardNumber, Cvv, ExpirationDate, CardHolderName} = formState;
+          let errorsElement = document.getElementById('errors');
+
+          if (CreditCardNumber.errorMessages.length > 0 || Cvv.errorMessages.length > 0 || ExpirationDate.errorMessages.length > 0 || CardHolderName.errorMessages.length > 0) {
+            errorsElement.style.display = 'block';
+          } else {
+            errorsElement.style.display = 'none';
+            document.getElementById('submitButton').innerHTML = 'Tokenizing...';
+            document.getElementById('submitButton').setAttribute('disabled', true);
+          }
+
+          if (CreditCardNumber.errorMessages.length > 0) document.getElementById('cardNumberError').innerText = 'Card number ' + CreditCardNumber.errorMessages[0];
+          if (Cvv.errorMessages.length > 0) document.getElementById('cvcError').innerText = 'CVC ' + Cvv.errorMessages[0];
+          if (ExpirationDate.errorMessages.length > 0) document.getElementById('expirationDateError').innerText = 'Expiration date ' + ExpirationDate.errorMessages[0];
+          if (CardHolderName.errorMessages.length > 0) document.getElementById('nameOnCardError').innerText = 'Name ' + CardHolderName.errorMessages[0];
+
+          let resp = await fetch('https://' + env + '.jupiterhq.com/v1/transactions/creditcard/tokenization/' + subMerchantId + '/session');
+          let sessionData = await resp.json();
+          let sessionId;
+
+          if (sessionData.data && sessionData.data.status === 'valid') {
+            sessionId = sessionData.data.sessionId;
+          }
+
+          form.submit('/v1/transactions/creditcard/tokenization/' + subMerchantId, {data: {sessionToken: sessionId}}, function (status, data) {
+            document.getElementById('submitButton').innerHTML = 'Place Order';
+            document.getElementById('submitButton').removeAttribute('disabled');
+            const saveCard = document.getElementById('saveThisCardForFutureCheckout').checked;
+            window.ReactNativeWebView.postMessage(JSON.stringify({...data, saveCard}).replace(/,/g, ' , '));
+          });
+        },
+        function (errors) {
+          document.getElementById('result').innerHTML = errors;
+        },
+      );
+    </script>
+  </body>
+</html>
+`;

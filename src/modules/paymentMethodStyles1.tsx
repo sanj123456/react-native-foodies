@@ -1,0 +1,351 @@
+import {StyleSheet} from 'react-native';
+import {colors, commonStyles, fonts, fontSize} from '../styles';
+
+export const paymentMethodStyles1 = StyleSheet.create({
+  headerView: {
+    height: 100,
+    backgroundColor: colors.headerbg,
+
+    flexDirection: 'row',
+    marginBottom: 10,
+    borderBottomLeftRadius: 30,
+    borderBottomRightRadius: 30,
+    justifyContent: 'space-between',
+  },
+  contentContainerStyle: {
+    paddingHorizontal: 15,
+    paddingVertical: 30,
+  },
+  leftViewMain: {
+    width: '15%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  leftView: {
+    height: 30,
+    width: 30,
+  },
+  rightViewMain: {
+    width: '12%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 10,
+  },
+  rightView: {
+    height: 30,
+    width: 30,
+    marginRight: 50,
+  },
+  centerView: {
+    flexDirection: 'row',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  txt: {
+    color: colors.white,
+    fontSize: fontSize.fs20,
+    fontFamily: fonts.BGFlameBold,
+  },
+  stepperActive: {
+    height: 12,
+    width: 34,
+    borderRadius: 8,
+    marginTop: 5,
+  },
+  stepperInActive: {
+    height: 13,
+    backgroundColor: '#F0F2F5',
+    width: 38,
+    borderRadius: 8,
+    marginTop: 5,
+  },
+  headerRightText: {
+    textAlign: 'center',
+    paddingTop: 5,
+
+    color: '#677A8E',
+  },
+  backIconStyles: {
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+    alignSelf: 'center',
+    top: 6,
+  },
+  appleIconStyles: {
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+    alignSelf: 'center',
+  },
+  rightIconStyles: {
+    width: 12,
+    height: 12,
+    resizeMode: 'contain',
+    alignSelf: 'center',
+    top: 10,
+  },
+  deliveryTxt: {
+    color: '#ABABAB',
+    fontSize: fontSize.fs14,
+    fontFamily: fonts.BGFlame,
+  },
+  locationText: {
+    color: colors.darkBlackText,
+    fontSize: fontSize.fs16,
+    fontFamily: fonts.BGFlameBold,
+  },
+  checkoutTxt: {
+    color: '#ABABAB',
+    fontSize: fontSize.fs16,
+    fontFamily: fonts.BGFlameBold,
+  },
+  locationTextAdd: {
+    color: '#343434',
+    fontSize: fontSize.fs13,
+    fontFamily: fonts.BGFlame,
+    fontWeight: '400',
+  },
+  itemTxt: {
+    fontSize: fontSize.fs16,
+    fontFamily: fonts.BGFlame,
+    color: '#777676',
+  },
+  totalTxt: {
+    fontSize: fontSize.fs14,
+    fontFamily: fonts.BGFlame,
+    color: '#777676',
+    lineHeight: 24,
+    fontWeight: '700',
+  },
+  priceTxt: {
+    color: '#343434',
+    fontSize: fontSize.fs13,
+    fontFamily: fonts.BGFlame,
+    fontWeight: '700',
+  },
+  addText: {
+    color: colors.headerbg,
+    fontSize: fontSize.fs16,
+    fontFamily: fonts.BGFlameBold,
+  },
+  toppingsTxt: {
+    fontSize: fontSize.fs16,
+    fontFamily: fonts.BGFlameBold,
+    color: colors.darkBlackText,
+  },
+  locationIcon: {},
+  locationWrapper: {
+    marginHorizontal: '4%',
+    marginVertical: '1%',
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    ...commonStyles.shadowStyles,
+    paddingBottom: 10,
+    marginTop: 10,
+  },
+  restaurantItemsWrapper: {
+    marginHorizontal: '4%',
+    marginVertical: '1%',
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    ...commonStyles.shadowStyles,
+    paddingBottom: 20,
+  },
+  totalItemsWrapper: {
+    marginHorizontal: '4%',
+    marginVertical: '1%',
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    ...commonStyles.shadowStyles,
+    paddingBottom: 20,
+  },
+  searchIcon: {},
+  filterIcon: {
+    top: 10,
+  },
+  textInput: {
+    borderWidth: 1,
+    borderColor: '#CDCDCD',
+    borderRadius: 4,
+
+    paddingLeft: 10,
+
+    marginTop: 10,
+  },
+  textInputCoupon: {
+    height: 40,
+
+    paddingLeft: 10,
+
+    marginTop: 10,
+    width: '71%',
+    top: -5,
+  },
+  textInputNote: {
+    borderWidth: 1,
+    borderColor: '#CDCDCD',
+    borderRadius: 4,
+
+    height: 110,
+
+    paddingLeft: 10,
+    marginTop: 10,
+  },
+  icRestaurantStyle: {
+    width: 45,
+    height: 45,
+    resizeMode: 'contain',
+    borderRadius: 40,
+  },
+  icCheckCircle: {
+    width: 25,
+    height: 25,
+    resizeMode: 'contain',
+  },
+  cardTxt: {
+    color: colors.white,
+    fontSize: fontSize.fs14,
+    fontFamily: fonts.BGFlameBold,
+    textAlign: 'center',
+  },
+  buttonWrapper: {
+    backgroundColor: colors.headerbg,
+    borderWidth: 1,
+    borderColor: '#EFEFEF',
+    ...commonStyles.shadowStyles,
+
+    paddingVertical: '5%',
+    borderRadius: 4,
+    width: '48%',
+  },
+  buttonWrapper1: {
+    backgroundColor: '#FFECEA',
+    borderWidth: 1,
+    borderColor: '#EFEFEF',
+    ...commonStyles.shadowStyles,
+
+    paddingVertical: '5%',
+    borderRadius: 4,
+    width: '48%',
+  },
+  rightButtonWrapper: {
+    backgroundColor: '#FFECEA',
+    borderWidth: 1,
+    borderColor: '#EFEFEF',
+
+    paddingVertical: '6%',
+    borderRadius: 10,
+    width: '31%',
+    paddingLeft: 3,
+    paddingRight: 3,
+  },
+  tipWrapper: {
+    backgroundColor: colors.headerbg,
+    borderWidth: 1,
+    borderColor: '#EFEFEF',
+    ...commonStyles.shadowStyles,
+
+    paddingVertical: '6%',
+    borderRadius: 10,
+    width: '20%',
+  },
+  tipWrapper1: {
+    paddingVertical: '6%',
+    borderRadius: 10,
+    width: '15%',
+  },
+  dummyImage: {
+    height: 240,
+    width: '100%',
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+  },
+  dropDownContainer: {
+    backgroundColor: '#E3E3E3',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+    marginTop: 8,
+    borderRadius: 8,
+    height: 60,
+  },
+  dropDownTitle: {
+    fontFamily: fonts.BGFlame,
+    fontSize: fontSize.fs14,
+    lineHeight: 15,
+    color: '#565656',
+  },
+  selectedText: {
+    fontSize: fontSize.fs18,
+    paddingLeft: 10,
+    color: colors.black,
+    fontFamily: fonts.BGFlameBold,
+  },
+  text: {
+    fontSize: fontSize.fs18,
+    color: colors.black,
+    fontFamily: fonts.BGFlameBold,
+  },
+  dropDownIconStyle: {},
+  editIcon: {},
+  guestDetailsWrapper: {
+    marginHorizontal: '4%',
+    marginVertical: '1%',
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    ...commonStyles.shadowStyles,
+    marginBottom: 10,
+  },
+  moreInfoWrapper: {
+    marginHorizontal: '4%',
+    marginVertical: '1%',
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    ...commonStyles.shadowStyles,
+    marginBottom: 10,
+  },
+  rewardsWrapper: {
+    marginHorizontal: '4%',
+    marginVertical: '1%',
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    ...commonStyles.shadowStyles,
+    marginBottom: 10,
+  },
+  couponWrapper: {
+    marginHorizontal: '4%',
+    marginVertical: '1%',
+    backgroundColor: colors.white,
+    borderRadius: 10,
+    ...commonStyles.shadowStyles,
+    marginBottom: 10,
+  },
+  itemWrapper: {
+    backgroundColor: '#F9F9F9',
+
+    paddingHorizontal: '5%',
+    paddingVertical: '5%',
+    marginTop: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    flex: 1,
+  },
+  CardTxt: {
+    color: '#565656',
+    fontFamily: fonts.BGFlameBold,
+    fontSize: fontSize.fs15,
+  },
+  cardNumber: {
+    color: '#565656',
+    fontFamily: fonts.BGFlame,
+    fontSize: fontSize.fs13,
+    lineHeight: 20,
+  },
+});

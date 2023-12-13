@@ -1,0 +1,67 @@
+workflows:
+  react-native-android:
+    name: React Native Android
+    environment:
+      node: 15.13.0
+      xcode: 14.3.1
+    scripts:
+      - name: Install npm dependencies
+        script: |
+          npm install
+      - name: Set Android SDK location
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$FCI_BUILD_DIR/android/local.properties"
+      - name: Build Android release
+        script: |
+          # Set environment variable so it can be used to increment build number in android/app/build.gradle
+          # Note that tracks can be specified when retrieving latest build number from Google Play, for example:
+          # export NEW_BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks=alpha) + 1))             
+          export NEW_BUILD_NUMBER=$(($(firebase-app-distribution get-latest-build-number --package-name "$PACKAGE_NAME") + 1))
+          cd android && ./gradlew assembleRelease
+    artifacts:
+      - android/app/build/outputs/**/*.apk
+
+  react-native-ios:
+    name: React Native iOS
+    environment:
+      vars:
+        XCODE_WORKSPACE: 'ios/foodiesTakeout.xcworkspace'
+        XCODE_SCHEME: 'foodiesTakeout'
+      ios_signing:
+        provisioning_profiles:
+          - foodies
+        certificates:
+          - foodies
+    scripts:
+      - name: App version
+        script: |
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-testflight-build-number "6463634796" --platform=IOS --json)
+          echo $LATEST_BUILD_NUMBER
+      - name: Install yarn dependencies
+        script: |
+          yarn
+      - name: Install pod
+        script: |
+          cd ios && pod install
+      - name: iOS build
+        script: |
+          export NODE_BINARY=$(fish -c 'which node')
+          ../node_modules/react-native/scripts/react-native-xcode.sh
+          npx react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'
+          echo "Set up code signing settings on Xcode project"
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-testflight-build-number "6463634796" --platform=IOS)
+          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
+          agvtool new-marketing-version 1.0.$BUILD_NUMBER
+          xcode-project use-profiles --warn-only
+          xcode-project build-ipa \
+                    --workspace "$CM_BUILD_DIR/ios/foodiesTakeout.xcworkspace" \
+                    --scheme foodiesTakeout --archive-flags="-destination 'generic/platform=iOS'"
+    cache:
+      cache_paths:
+        - $HOME/Library/Caches/CocoaPods
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - ./*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
